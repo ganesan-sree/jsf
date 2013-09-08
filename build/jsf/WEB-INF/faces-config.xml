@@ -18,4 +18,14 @@
 			<to-view-id>/ListUser.jsp</to-view-id>
 		</navigation-case>
 	</navigation-rule>
+	
+		<navigation-rule>
+		<display-name>helloworld</display-name>
+		<from-view-id>/helloworld</from-view-id>
+		<navigation-case>
+			<from-outcome>success</from-outcome>
+			<to-view-id>/home.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	
 </faces-config>

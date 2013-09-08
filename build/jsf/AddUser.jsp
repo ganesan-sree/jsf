@@ -12,7 +12,7 @@
 		</p>
 	<h:form>
 		<h:panelGrid border="1" columns="2">
-			
+			<h:outputText value="ID"></h:outputText>
 			<h:inputText id="User_ID" value="#{userBean.id}" required="true">
 				<f:validateLongRange minimum="1" maximum="500"/>
 			</h:inputText>
