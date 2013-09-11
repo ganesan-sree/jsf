@@ -9,7 +9,6 @@ import javax.faces.bean.RequestScoped;
 public class HelloWorld {
 
 	@ManagedProperty(value = "#{message}")
-	private Message messageBean;
 
 	private String message;
 
@@ -18,14 +17,11 @@ public class HelloWorld {
 	}
 
 	public String getMessage() {
-		if (messageBean != null) {
-			message = messageBean.getMessage();
-		}
-		return message;
-	}
+	      return "Hello World!";
+	   }
 
-	public void setMessageBean(Message message) {
-		this.messageBean = message;
+	public void setMessageBean(String message) {
+		this.message = message;
 	}
 
 }
