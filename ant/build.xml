@@ -7,19 +7,9 @@
 
 
 	<path id="compile.classpath">
-		
-		<fileset dir="${server.common.lib}/">
-					<include name="**/*.jar"/>
-			</fileset>
-
-			<fileset dir="${server.lib}/">
-				<include name="**/*.jar"/>
-			</fileset>
-
 		<fileset dir="${dir.home}/WebContent/WEB-INF/lib">
 			<include name="**/*.jar" />
-		</fileset>
-				
+		</fileset>		
 	</path>
 
 
