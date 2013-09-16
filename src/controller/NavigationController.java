@@ -39,4 +39,16 @@ public class NavigationController implements Serializable {
 		this.pageId = pageId;
 	}
 
+	public String moveToPage1() {
+		return "page1";
+	}
+
+	public String processPage1() {
+		System.out.println("8888888888");
+		return "proc";
+	}
+
+	public String processPage2() {
+		return "proc";
+	}
 }
