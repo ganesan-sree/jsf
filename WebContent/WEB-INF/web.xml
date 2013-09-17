@@ -3,7 +3,7 @@
   <display-name>jsf</display-name>
   <welcome-file-list>
         <welcome-file>faces/home.xhtml</welcome-file>
-    <welcome-file>index.html</welcome-file>
+    <welcome-file>start.xtml</welcome-file>
     <welcome-file>index.htm</welcome-file>
     <welcome-file>index.jsp</welcome-file>
     <welcome-file>default.html</welcome-file>
@@ -11,6 +11,11 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
+  <context-param>
+    <param-name>javax.faces.STATE_SAVING_METHOD</param-name>
+    <param-value>server</param-value>
+</context-param>
+
   
   <servlet>
 		<servlet-name>Faces Servlet</servlet-name>
@@ -24,7 +29,7 @@
    </servlet-mapping>
    <servlet-mapping>
       <servlet-name>Faces Servlet</servlet-name>
-      <url-pattern>*.jsp</url-pattern>
+      <url-pattern>*.jsf</url-pattern>
    </servlet-mapping>
    <servlet-mapping>
       <servlet-name>Faces Servlet</servlet-name>
