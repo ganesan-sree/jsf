@@ -2,15 +2,12 @@ package com.cts;
 
 import javax.faces.context.FacesContext;
 
+//http://localhost:8080/jsf/AddUser.xhtml
+
 public class UserBean {
     private int id;
     private String name;
     
-    
-    
-    
-    
-     
     public String addUser() {
     
     	FacesContext facesContext = FacesContext.getCurrentInstance();
