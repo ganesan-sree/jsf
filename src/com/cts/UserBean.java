@@ -1,11 +1,21 @@
 package com.cts;
 
+import javax.faces.context.FacesContext;
+
 public class UserBean {
     private int id;
     private String name;
+    
+    
+    
+    
+    
      
     public String addUser() {
-         
+    
+    	FacesContext facesContext = FacesContext.getCurrentInstance();
+    	System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&77");
+    	System.out.println(facesContext);
         return "success";
     }   
     public int getId() {
