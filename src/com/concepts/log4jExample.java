@@ -22,5 +22,6 @@ public class log4jExample{
       log.error("Error Message!");
       log.fatal("Fatal Message!");
      System.out.println("1111");
+     System.out.println(i);
   }
 }
