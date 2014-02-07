@@ -14,7 +14,7 @@ public class web_driver_class {
 
 	static Logger logger = Logger.getLogger("");
 	static WebDriver driver = new FirefoxDriver();
-
+	volatile Object r= new Object();
 	/**
 	 * @param args
 	 * @throws IOException
