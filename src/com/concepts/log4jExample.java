@@ -2,6 +2,8 @@ package com.concepts;
 
 import org.apache.log4j.Logger;
 
+import com.concepts.test.testMain;
+
 import java.io.*;
 import java.sql.SQLException;
 import java.util.*;
@@ -23,5 +25,7 @@ public class log4jExample{
       log.fatal("Fatal Message!");
      System.out.println("1111");
      System.out.println(i);
+     
+     
   }
 }
